@@ -29,7 +29,7 @@ phases:
       - echo Build completed on `date`
 
 reports:
-  arn:aws:codebuild:eu-west-1:624943759663:report-group/report-group-name-1:
+  arn:aws:codebuild:eu-west-1:624943759663:pentaho/kettle:
     files:
       - "**/*"
     base-directory: 'target/tests/reports'
